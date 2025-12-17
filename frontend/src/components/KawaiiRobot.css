@@ -1,0 +1,135 @@
+.robot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.robot-container.thinking .head {
+    animation: shake 2s infinite ease-in-out;
+}
+
+.robot-container.thinking .bulb {
+    background-color: #ff6b6b;
+    box-shadow: 0 0 10px #ff6b6b;
+    animation: blink 0.5s infinite;
+}
+
+/* --- Dessin du Robot --- */
+.antenna {
+    width: 4px;
+    height: 20px;
+    background: #555;
+    position: relative;
+}
+.bulb {
+    width: 12px;
+    height: 12px;
+    background: #ccc;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -4px;
+    transition: 0.3s;
+}
+
+.head {
+    width: 100px;
+    height: 80px;
+    background: #a2d2ff; /* Bleu pastel */
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #333;
+}
+
+.eyes {
+    display: flex;
+    gap: 30px;
+}
+.eye {
+    width: 12px;
+    height: 12px;
+    background: #d40c0c;
+    border-radius: 50%;
+    animation: blink-eyes 4s infinite;
+    transition: all 0.3s ease-in-out;
+}
+
+.mouth {
+    width: 20px;
+    height: 10px;
+    border-bottom: 3px solid #333;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.body {
+    width: 80px;
+    height: 60px;
+    background: #eb78eb;
+    border-radius: 0 0 20px 20px;
+    border: 3px solid #333;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    width: 40px;
+    height: 30px;
+    background: #333;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #51cf66;
+    font-family: monospace;
+    font-size: 10px;
+}
+
+.heartbeat {
+    color: #ff6b6b;
+    animation: beat 1s infinite;
+}
+
+.message {
+    margin-top: 10px;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Pour le coté Kawaii */
+    color: #555;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* --- Animations --- */
+@keyframes shake {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-5deg); }
+    75% { transform: rotate(5deg); }
+}
+@keyframes blink {
+    50% { opacity: 0.5; }
+}
+@keyframes blink-eyes {
+    0%, 96%, 100% { transform: scaleY(1); }
+    98% { transform: scaleY(0.1); }
+}
+@keyframes beat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+}
+
+.robot-container.thinking .eye {
+    height: 3px;        
+    width: 16px;          
+    border-radius: 2px; 
+    animation: none;       
+    transform: scaleY(1);  
+}

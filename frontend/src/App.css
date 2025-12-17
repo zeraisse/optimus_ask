@@ -1,0 +1,101 @@
+/* frontend/src/App.css */
+body {
+  background-color: #46d8e2; /* Rose très pâle */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  color: #d63384;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(214, 51, 132, 0.15);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+  font-size: 0.9em;
+}
+
+textarea, input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ffc9db;
+  border-radius: 12px;
+  font-size: 1em;
+  box-sizing: border-box; /* Important pour le padding */
+  transition: 0.2s;
+}
+
+textarea:focus, input:focus {
+  border-color: #d63384;
+  outline: none;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background-color: #d63384;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #a61e4d;
+}
+
+.btn-primary:disabled {
+  background-color: #fcc2d7;
+  cursor: not-allowed;
+}
+
+.answer-box {
+  background: #e7f5ff;
+  color: #1971c2;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #d63384;
+  color: #d63384;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background: #fff0f6;
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "category": "Geography",
+    "context": "France is a country located in Western Europe. Its capital is Paris, which is famous for the Eiffel Tower and the Louvre Museum. The currency used is the Euro.",
+    "question": "What is the capital of France?",
+    "expected_answer": "Paris"
+  },
+  {
+    "id": 2,
+    "category": "History",
+    "context": "Apollo 11 was the spaceflight that first landed humans on the Moon. Commander Neil Armstrong and lunar module pilot Buzz Aldrin landed the Apollo Lunar Module Eagle on July 20, 1969.",
+    "question": "When did Apollo 11 land?",
+    "expected_answer": "July 20, 1969"
+  },
+  {
+    "id": 3,
+    "category": "Technology",
+    "context": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability. It was created by Guido van Rossum and first released in 1991.",
+    "question": "Who created Python?",
+    "expected_answer": "Guido van Rossum"
+  },
+  {
+    "id": 4,
+    "category": "Science",
+    "context": "Water is a transparent, tasteless, odorless, and nearly colorless chemical substance. It boils at 100 degrees Celsius at sea level, whereas Iron boils at 2862 degrees Celsius.",
+    "question": "At what temperature does water boil?",
+    "expected_answer": "100 degrees Celsius"
+  },
+  {
+    "id": 5,
+    "category": "Literature",
+    "context": "Sherlock Holmes is a fictional private detective created by British author Sir Arthur Conan Doyle. He is known for his proficiency with observation, deduction, and forensic science.",
+    "question": "Who is the author of Sherlock Holmes?",
+    "expected_answer": "Sir Arthur Conan Doyle"
+  }
+]
