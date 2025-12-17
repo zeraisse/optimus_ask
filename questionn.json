@@ -33,5 +33,19 @@
     "context": "Sherlock Holmes is a fictional private detective created by British author Sir Arthur Conan Doyle. He is known for his proficiency with observation, deduction, and forensic science.",
     "question": "Who is the author of Sherlock Holmes?",
     "expected_answer": "Sir Arthur Conan Doyle"
+  },
+  {
+    "id": 6,
+    "category": "Geographie",
+    "context": "Morocco is a country from north Africa. Oujda, which is near the border with Algeria is a town of Morocco ",
+    "question": "Where is Oujda located?",
+    "expected_answer": "Morocco"
+  }
+  {
+    "id": 7,
+    "category": "History",
+    "context": "The Great Wall of China is a series of fortifications that stretch across northern China. It was built to protect against invasions and raids from various nomadic groups.",
+    "question": "What was the primary purpose of the Great Wall of China?",
+    "expected_answer": "To protect against invasions and raids from various nomadic groups"
   }
 ]
