@@ -1,4 +1,4 @@
-# 🤖 Kawaii QA Bot
+# 🤖 Optimus Ask
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
