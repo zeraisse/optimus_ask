@@ -40,7 +40,7 @@
     "context": "Morocco is a country from north Africa. Oujda, which is near the border with Algeria is a town of Morocco ",
     "question": "Where is Oujda located?",
     "expected_answer": "Morocco"
-  }
+  },
   {
     "id": 7,
     "category": "History",
